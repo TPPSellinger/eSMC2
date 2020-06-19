@@ -47,7 +47,8 @@ for(x in 1:nsim){
 }
 
 
-N=numeric(n*n*0.5*M*(M-1))
+
+N=numeric(n*n*0.5*M*(M-1)*0.5*M*(M-1))
 for(x in 1:nsim){
   N=cbind(N,as.numeric(results[[x]]$N))
 }
@@ -56,5 +57,6 @@ N=N[,-1]
 for(x in nsim){
   N[which(is.na(as.numeric(N[,x]))),x]<-0
 }
-N_heat=matrix(c(apply(N,1,sd)/apply(N,1,mean)),nrow = 40,ncol = 40)
+N_heat=matrix(c(apply(N,1,sd)/apply(N,1,mean)),nrow = n*0.5*M*(M-1),ncol = n*0.5*M*(M-1))
 plot(N_heat)
+
