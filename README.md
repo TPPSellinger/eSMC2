@@ -9,7 +9,7 @@ How to use eSMC2:
 
 Step one: Download or clone the repository eSMC2 (We recommand the use of the latest version). Extract the zip file.
 
-Step two: Open the script install_eSMC2.R in Rstudio or a text editor. Make sure the path of the package (eSMC2_0.0.1.tar.gz) is correct (line 6), name of package may depend on it's version. If the package is in a different folder, modify the path to the correct folder. Execute the script to install the package on your local machine (by selecting everything and then clicking run in Rstudio).
+Step two: Open the script install_eSMC2.R in Rstudio or a text editor. Make sure the path of the package (eSMC2_0.0.2.tar.gz) is correct (line 6), name of package may depend on it's version. If the package is in a different folder, modify the path to the correct folder. Execute the script to install the package on your local machine (by selecting everything and then clicking run in Rstudio).
 
 
 Application to simulated data or to data :
