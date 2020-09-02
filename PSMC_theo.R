@@ -42,7 +42,7 @@ for(x in 1:nsim){
   scrm(command_simu,name)
   result=Optimize_N(file=name,theta = theta,Rho = rho,L=L,n=40,ER=T,Pop=T,Boxr=c(1,1),pop_vect=NA,mut=T,Correct_window=T)
   results[[(1+length(results))]]=result
-  rm_ex[1,x]=(result$rho/(2*result$mu)) # the 2 is hear because of scaling
+  rm_ex[1,x]=(result$rho/(result$mu)) 
   mu_ex[1,x]=result$mu
 }
 
@@ -51,7 +51,7 @@ plot(c(10,10^6),c(1,1), log=c("x"), ylim =c(3,5) ,
      type="n", xlab= paste("Generations ago",sep=" "), ylab="population size (log10)",main = "")
 for(x in 1:nsim){
   Pop_=mu_ex[1,x]/(mu)
-  lines((results[[x]]$Tc*Pop_), log10((results[[x]]$Xi)*Pop_), type="s", col="red")
+  lines((results[[x]]$Tc*Pop_), log10((results[[x]]$Xi)*0.5*Pop_), type="s", col="red")
   
 }
 abline(h=log10(Pop), col="black")
