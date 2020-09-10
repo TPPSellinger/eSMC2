@@ -21,6 +21,14 @@ Theoretical convergence :
 
 We deliver 4 scripts explaining how to get the theoretical convergence. The script, simulate constant demographic scenarios. Feel free to modify them in order to study the demographic scenarios you are interested in. To optain the theoretical convergence of PSMC', you can download and run PSMC_theo.R. To obtain the heat plot, indacting if there is enough data for inference, run PSMC_heat.R. To check the theoretical convergence of MSMC, download and run  MSMC_theo.R. To obtain the heat plot for MSMC, indacting if there is enough data for inference, run MSMC_heat.R.
 
+Regularization Penalty: 
+You can specify the L1 and L2 parameter to penalyze variation of population size (However we do not recommend it, bounding the population size is recommended). Here is the formula:
+
+LH=LH-L1(10^(abs(Log10(Xi)))-L2(10^(abs(Log10(Xi²)))
+
+Where Xi is the vector of population size paramter (i.e. Xi_t=Ne_t/Ne_0).
+
+
 Warnings: 
 
 Computation time can be increased considerably if:
