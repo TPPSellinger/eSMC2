@@ -1,5 +1,5 @@
 # eSMC2
-Contains the R-package to run eSMC2, as well as script examples. A detailed description of the method can be found here: https://doi.org/10.1101/701185 and : 
+Contains the R-package to run eSMC2, as well as script examples. A detailed description of the method can be found here: https://doi.org/10.1101/701185 and https://www.biorxiv.org/content/10.1101/2020.07.23.217091v2 : 
 
 Input file:
 
@@ -9,7 +9,7 @@ How to use eSMC2:
 
 Step one: Download or clone the repository eSMC2 (We recommand the use of the latest version). Extract the zip file.
 
-Step two: Open the script install_eSMC2.R in Rstudio or a text editor. Make sure the path of the package (eSMC2_0.0.4.tar.gz) is correct (line 6), name of package may depend on it's version. If the package is in a different folder, modify the path to the correct folder. Execute the script to install the package on your local machine (by selecting everything and then clicking run in Rstudio).
+Step two: Open the script install_eSMC2.R in Rstudio or a text editor. Make sure the path of the package (eSMC2_1.1.0.tar.gz) is correct (line 6), name of package may depend on it's version. If the package is in a different folder, modify the path to the correct folder. Execute the script to install the package on your local machine (by selecting everything and then clicking run in Rstudio).
 
 
 Application to simulated data or to data :
