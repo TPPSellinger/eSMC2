@@ -3,13 +3,13 @@ Contains the R-package to run eSMC2, as well as script examples. A detailed desc
 
 Input file:
 
-The input file for eSMC2 is the same as for eSMC, which is a "Segregating Matrix". The matrix must have M+1 lines (M is the number of haplotypes). The first M lines of the Segregating Matrix are the nucleotides of the M haplotypes at all the SNP positions (it can be encoded as nucleotide letters or as numbers). The last line of the matrix contains the position on the sequence of the SNPs. The number of columns is thus equal to the number of SNPs. The Segregating Matrix can be built from a multihetsep file (https://github.com/stschiff/msmc/blob/master/guide.md) or from simulated data through functions of the package. 
+The input file for eSMC2 is the same as for eSMC, which is a "Segregating Matrix". The matrix must have M+2 lines (M is the number of haplotypes). The first M lines of the Segregating Matrix are the nucleotides of the M haplotypes at all the SNP positions (it can be encoded as nucleotide letters or as numbers). The M+1 line contains the number of site called between two segregatin sites (as in MSMC). The last line of the matrix contains the position on the sequence of the SNPs. The number of columns is thus equal to the number of SNPs. The Segregating Matrix can be built from a multihetsep file (https://github.com/stschiff/msmc/blob/master/guide.md) or from simulated data through functions of the package. 
 
 How to use eSMC2:
 
 Step one: Download or clone the repository eSMC2 (We recommand the use of the latest version). Extract the zip file.
 
-Step two: Open the script install_eSMC2.R in Rstudio or a text editor. Make sure the path of the package (eSMC2_1.1.0.tar.gz) is correct (line 6), name of package may depend on it's version. If the package is in a different folder, modify the path to the correct folder. Execute the script to install the package on your local machine (by selecting everything and then clicking run in Rstudio).
+Step two: Open the script install_eSMC2.R in Rstudio or a text editor. Make sure the path of the package (eSMC2_1.1.1.tar.gz) is correct (line 6), name of package may depend on it's version. If the package is in a different folder, modify the path to the correct folder. Execute the script to install the package on your local machine (by selecting everything and then clicking run in Rstudio).
 
 
 Application to simulated data or to data :
