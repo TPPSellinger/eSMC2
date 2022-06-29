@@ -1,6 +1,8 @@
 # eSMC2
 Contains the R-package to run eSMC2, as well as script examples. A detailed description of the method can be found here: https://doi.org/10.1101/701185 and https://www.biorxiv.org/content/10.1101/2020.07.23.217091v2 : 
 
+A detailed tutorial can be found in the tutorial folder otherwise a quick one can be find below :
+
 Input file:
 
 The input file for eSMC2 is the same as for eSMC, which is a "Segregating Matrix". The matrix must have M+2 lines (M is the number of haplotypes). The first M lines of the Segregating Matrix are the nucleotides of the M haplotypes at all the SNP positions (it can be encoded as nucleotide letters or as numbers). The M+1 line contains the number of site called between two segregatin sites (as in MSMC). The last line of the matrix contains the position on the sequence of the SNPs. The number of columns is thus equal to the number of SNPs. The Segregating Matrix can be built from a multihetsep file (https://github.com/stschiff/msmc/blob/master/guide.md) or from simulated data through functions of the package. 
