@@ -1,7 +1,7 @@
 # eSMC2
 Contains the R-package to run eSMC2, as well as script examples. A detailed description of the method can be found here: https://doi.org/10.1101/701185 and https://www.biorxiv.org/content/10.1101/2020.07.23.217091v2 : 
 
-A detailed tutorial can be found in the tutorial folder otherwise a quick one can be find below :
+A detailed tutorial can be found in the tutorial folder. All the data has been already simulated, only path to file location needs to be changed. Otherwise a quick one can be find below :
 
 Input file:
 
