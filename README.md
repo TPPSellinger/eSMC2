@@ -1,5 +1,5 @@
 # eSMC2
-Contains the R-package to run eSMC2, as well as script examples. A detailed description of the method can be found here: https://doi.org/10.1101/701185 and https://www.biorxiv.org/content/10.1101/2020.07.23.217091v2 : 
+Contains the R-package to run eSMC2, as well as script examples. A detailed description of the method can be found here: https://doi.org/10.1101/701185 , https://www.biorxiv.org/content/10.1101/2020.07.23.217091v2 , https://doi.org/10.1101/2022.07.29.502030 and https://doi.org/10.1101/2022.09.28.508873  : 
 
 
 Please always update your version of the package as the new version generally contains bug fix, code optimization or new features.
