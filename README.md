@@ -1,9 +1,12 @@
 # eSMC2
 Contains the R-package to run eSMC2, as well as script examples. A detailed description of the method can be found here: https://doi.org/10.1101/701185 and https://www.biorxiv.org/content/10.1101/2020.07.23.217091v2 : 
 
-A detailed tutorial can be found in the tutorial folder. All the data has been already simulated, only path to file location needs to be changed. Otherwise a quick one can be find below :
 
-Input file:
+Please always update your version of the package as the new version generally contains bug fix, code optimization or new features.
+
+A detailed tutorial can be found in the tutorial folder. All the data has been already simulated, only the path to file location might need to be changed. Otherwise a quick one can be find below :
+
+Input file description:
 
 The input file for eSMC2 is the same as for eSMC, which is a "Segregating Matrix". The matrix must have M+2 lines (M is the number of haplotypes). The first M lines of the Segregating Matrix are the nucleotides of the M haplotypes at all the SNP positions (it can be encoded as nucleotide letters or as numbers). The M+1 line contains the number of site called between two segregatin sites (as in MSMC). The last line of the matrix contains the position on the sequence of the SNPs. The number of columns is thus equal to the number of SNPs. The Segregating Matrix can be built from a multihetsep file (https://github.com/stschiff/msmc/blob/master/guide.md) or from simulated data through functions of the package. 
 
@@ -36,7 +39,7 @@ Warnings:
 Computation time can be increased considerably if:
 - more than one chromosome in one analysis is used
 - more than 10 haplotypes are simultaneously analyzed
-- more than 80 hidden states are used
+- more than 60 hidden states are used
 
 If the following statements are true, poor results are to be expected:
 - using less than 30 hidden states
@@ -48,5 +51,5 @@ It is important to note:
 - Our method cannot distinguish self-fertilization from seed banks. Simultaneously estimating both varaibles without strong prior knowledge is not advised. 
 
 
-If you encounter any issue or whish to add a feature, feel free to contact me at : thibaut.sellinger@tum.de
+If you encounter any issue or whish to add a feature, feel free to contact me at : thibaut.sellinger@tum.de or thibaut.sellinger@hotmail.fr
 
