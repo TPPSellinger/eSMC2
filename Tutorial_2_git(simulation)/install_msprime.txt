@@ -1,0 +1,12 @@
+##########################
+# How to install msprime #
+##########################
+git clone https://github.com/tskit-dev/msprime.git --recurse-submodules
+cd msprime/
+make
+############
+# Finished #
+############
+# If necessary 
+#python3  -m pip install matplotlib --user
+#python3  -m pip install numpy --user
