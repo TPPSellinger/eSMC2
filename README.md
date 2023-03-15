@@ -8,30 +8,49 @@ A detailed tutorial with script example for almost all case scenario can be foun
 
 Tutorial 1 : Installation 
 
+
 Tutorial 2 (Optional) : Simulation (contains all the scripts to simulate data and all simulation results)
+
 
 Tutorial 3 : How to run and use eSMC2 (can estimate selfing, dormancy and recombination rate along with past variation of population size)
 
+
 Tutorial 3 A : Best case convergence of eSMC2 under different Bottleneck scenario
+
 Tutorial 3 B : Observed transition matrix of eSMC2 under different Bottleneck scenario
+
 Tutorial 3 C : Best case convergence of eSMC2 using different sequence length
+
 Tutorial 3 D : Running eSMC2 on simulated sequence data (msprime format output)
+
 Tutorial 3 E : Running eSMC2 on real sequence data
+
 Tutorial 3 F : Running eSMC2 on simulated sequence data (VCF format output)
+
 
 Tutorial 4 : How to run and use teSMC (can estimate selfing and recombination rate through time along with past variation of population size)
 
+
 Tutorial 4 A : Best case convergence of teSMC in estimating a transition to selfing 
+
 Tutorial 4 B : Running teSMC on simulated sequence data (msprime format output) to estimate a transition to selfing 
+
 Tutorial 4 C : Running teSMC on real sequence data to estimate a transition to selfing 
+
 Tutorial 4 D : Running teSMC on simulated sequence data (VCF format) to estimate a transition to selfing 
+
 
 Tutorial 5 : How to run and use the Sequentially Markovian Beta Coalescent (SMBC) (can estimate the alpha parameter of the Beta distribution along with the past variation of population size)
 
+
 Tutorial 5 A : Best case convergence of SMBC in estimating the past demography, alpha and the recombination rate
+
 Tutorial 5 B : Best case convergence of SMBC under neutral in estimating the past demography, alpha along the genome and the recombination rate
+
 Tutorial 5 C : Best case convergence of SMBC in presence of strong positive selection in estimating the past demography, alpha along the genome and the recombination rate
+
 Tutorial 5 D : Running SMBC on simulated sequence data (msprime output) to estimate alpha, the recombination rate and the past demography
+
 Tutorial 5 E : Running SMBC on the output of ARGweaver to estimate alpha, the recombination rate and the past demography
 
 Tutorial 6 : SMCtheo (runs the PSMC' on sequence data of theoretical marker)
