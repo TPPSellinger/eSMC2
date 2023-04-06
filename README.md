@@ -105,5 +105,4 @@ It is important to note:
 - Our method cannot distinguish self-fertilization from seed banks. Simultaneously estimating both varaibles without strong prior knowledge is not advised. 
 
 
-If you encounter any issue or whish to add a feature, feel free to contact me at : thibaut.sellinger@tum.de or thibaut.sellinger@hotmail.fr
-
+If you encounter any issue or whish to add a feature, feel free to open an issue.
