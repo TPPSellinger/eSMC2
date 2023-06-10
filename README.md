@@ -57,6 +57,8 @@ Tutorial 6 : SMCtheo (runs the PSMC' on sequence data of theoretical marker)
 
 Tutorial 7 : SMCm (runs the PSMC' on genome and methylome data)
 
+Due to storage limitation, the data for tutorial 7C cannot be stored on github. Please contact authors for the data. 
+
 
 Otherwise a quick one can be find below :
 
